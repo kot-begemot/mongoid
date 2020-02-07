@@ -304,7 +304,7 @@ module Mongoid
       def geo_near(coordinates)
         GeoNear.new(collection, criteria, coordinates)
       end
-      
+
       def empty_and_chainable?
         true
       end
